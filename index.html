@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Shortcuts Wallpaper</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+        <style>
+            html {
+                /* Change the background image */
+                background: url(img/dark/linus-nylund-SfdwxMA5VIM-unsplash.jpg) no-repeat center center fixed;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                background-size: cover;
+            }
+
+            nav {
+                /* Dark Mode with Dark Images */
+                background: rgba(0, 0, 0, 0.5);
+                color: rgba(255, 255, 255, 0.5);
+                
+                /*
+                Light Mode with Light Images
+                background: rgba(255, 255, 255, 0.5);
+                color: rgba(0, 0, 0, 0.5);
+                */
+                position: fixed;
+                top: 0;
+                right: 0;
+                overflow: hidden;
+                width: 250px !important;
+                height: 100% !important;
+                line-height: normal !important;
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                padding: 20px;
+            }
+
+            dt {
+                font-family: monospace;
+                font-size: 11pt;
+                font-weight: 700;
+                margin-top: 10px;
+                border-top: 1px solid silver;
+                padding-top: 5px;
+            }
+
+            dd {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 10pt;
+                font-weight: 400;
+                margin-inline-start: 20px;
+            }
+
+            h1 {
+                font-family: 'Open Sans', sans-serif;
+                font-size: 12pt;
+                font-weight: 700;
+                margin: 0;
+            }
+        </style>
+
+        <script lang="javascript">
+            (async () => {
+                let shortcutsFile = await fetch('visualstudio.json');
+                let shortcuts = await shortcutsFile.json();
+
+                var app = new Vue({
+                    el: '#app',
+                    data: {
+                        shortcuts: shortcuts
+                    },
+                    methods: {
+
+                    }
+                });
+
+            })();
+        </script>
+    </head>
+
+    <body>
+        <nav class="z-depth-4" id="app">
+            <h1>Visual Studio</h1>
+            <dl>
+                <template v-for="shortcut in shortcuts">
+                    <dt>{{ shortcut.shortcut }}</dt>
+                    <dd>{{ shortcut.description }}</dd>
+                </template>
+            </dl>
+        </nav>
+    </body>
+
+</html>

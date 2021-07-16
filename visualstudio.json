@@ -1,0 +1,82 @@
+[
+    {
+        "shortcut": "CTRL + ENTER",
+        "description": "Insert line below"
+    },
+    {
+        "shortcut": "CTRL + G",
+        "description": "Go to line number"
+    },
+    {
+        "shortcut": "CTRL + R + R",
+        "description": "Rename object"
+    },
+{
+        "shortcut": "SHIFT + ENTER",
+        "description": "Smart Line Break"
+    },
+    {
+        "shortcut": "CTRL + M + H",
+        "description": "Collapse selection"
+    },
+    {
+        "shortcut": "CTRL + .",
+        "description": "Quick actions"
+    },
+    {
+        "shortcut": "CTRL + SHIFT + F",
+        "description": "Suche über alles"
+    },
+    {
+        "shortcut": "CTRL + 0 + G",
+        "description": "Open Changes (Git)"
+    },
+    {
+        "shortcut": "CTRL + M O",
+        "description": "Collapse all"
+    },
+    {
+        "shortcut": "ALT + F12",
+        "description": "Peek definition"
+    },
+    {
+        "shortcut": "CTRL + D",
+        "description": "Duplicate line"
+    },
+    {
+        "shortcut": "ALT + UP/DOWN",
+        "description": "Codezeile verschieben"
+    },
+    {
+        "shortcut": "CTRL + SHIFT + L",
+        "description": "Delete line"
+    },
+    {
+        "shortcut": "CTRL + K + C",
+        "description": "Zeile auskommentieren"
+    },
+    {
+        "shortcut": "CTRL + K + U",
+        "description": "Zeile einkommentieren"
+    },
+    {
+        "shortcut": "CTRL + SHIFT + °",
+        "description": "Markierung auskommentieren"
+    },
+    {
+        "shortcut": "CTRL + T",
+        "description": "Search all with preview"
+    },
+    {
+        "shortcut": "CTRL + H",
+        "description": "Quick search & replace"
+    },
+    {
+        "shortcut": "CTRL + K + D",
+        "description": "Format document"
+    },
+    {
+        "shortcut": "CTRL + SHIFT + H",
+        "description": "Replace in files"
+    }
+]
