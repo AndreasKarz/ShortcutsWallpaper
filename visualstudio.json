@@ -1,7 +1,27 @@
 [
     {
+        "shortcut": "CTRL + TAB",
+        "description": "Cycling trough open Files"
+    },
+    {
+        "shortcut": "CTRL + M + O",
+        "description": "Collapse all"
+    },
+    {
+        "shortcut": "CTRL + M + H",
+        "description": "Collapse selection"
+    },
+    {
+        "shortcut": "CTRL + T",
+        "description": "Goto all with preview"
+    },
+    {
         "shortcut": "CTRL + ENTER",
         "description": "Insert line below"
+    },
+    {
+        "shortcut": "SHIFT + ENTER",
+        "description": "Smart Line Break"
     },
     {
         "shortcut": "CTRL + G",
@@ -10,14 +30,6 @@
     {
         "shortcut": "CTRL + R + R",
         "description": "Rename object"
-    },
-{
-        "shortcut": "SHIFT + ENTER",
-        "description": "Smart Line Break"
-    },
-    {
-        "shortcut": "CTRL + M + H",
-        "description": "Collapse selection"
     },
     {
         "shortcut": "CTRL + .",
@@ -30,10 +42,6 @@
     {
         "shortcut": "CTRL + 0 + G",
         "description": "Open Changes (Git)"
-    },
-    {
-        "shortcut": "CTRL + M O",
-        "description": "Collapse all"
     },
     {
         "shortcut": "ALT + F12",
@@ -64,10 +72,6 @@
         "description": "Markierung auskommentieren"
     },
     {
-        "shortcut": "CTRL + T",
-        "description": "Search all with preview"
-    },
-    {
         "shortcut": "CTRL + H",
         "description": "Quick search & replace"
     },
@@ -86,5 +90,9 @@
     {
         "shortcut": "CTRL + W + B",
         "description": "Open Bookmarks"
+    },
+    {
+        "shortcut": "CTRL + K + B",
+        "description": "Code Snippet Manager"
     }
 ]
