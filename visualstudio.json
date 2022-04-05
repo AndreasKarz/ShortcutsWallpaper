@@ -78,5 +78,13 @@
     {
         "shortcut": "CTRL + SHIFT + H",
         "description": "Replace in files"
+    },
+    {
+        "shortcut": "CTRL + K + K",
+        "description": "Set Bookmark on actual line"
+    },
+    {
+        "shortcut": "CTRL + W + B",
+        "description": "Open Bookmarks"
     }
 ]

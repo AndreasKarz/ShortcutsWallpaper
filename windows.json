@@ -1,0 +1,94 @@
+[
+    {
+        "shortcut": "⊞ + X",
+        "description": "Quick Tasks"
+    },
+    {
+        "shortcut": "CTRL + SHIFT + ESC",
+        "description": "Open taskmanager"
+    },
+    {
+        "shortcut": "⊞ + E",
+        "description": "Open explorer"
+    },
+    {
+        "shortcut": "⊞ + N",
+        "description": "Notification Center"
+    },
+    {
+        "shortcut": "⊞ + A",
+        "description": "Action Center"
+    },
+    {
+        "shortcut": "⊞ + B",
+        "description": "Start"
+    },
+    {
+        "shortcut": "⊞ + D",
+        "description": "Show / hide Desktop"
+    },
+    {
+        "shortcut": "⊞ + H",
+        "description": "Dictation"
+    },
+    {
+        "shortcut": "⊞ + W",
+        "description": "Widgets"
+    },
+    {
+        "shortcut": "⊞ + SHIFT + S",
+        "description": "Snipping Tool"
+    },
+    {
+        "shortcut": "⊞ + →",
+        "description": "Snap active Window"
+    },
+    {
+        "shortcut": "CTRL + ALT + A",
+        "description": "Authy"
+    },
+    {
+        "shortcut": "CTRL + ALT + B",
+        "description": "Open Browser (Chrome)"
+    },
+    {
+        "shortcut": "CTRL + ALT + C",
+        "description": "Visual Studio Code"
+    },
+    {
+        "shortcut": "CTRL + ALT + J",
+        "description": "Jumpserver RDP"
+    },
+    {
+        "shortcut": "CTRL + ALT + M",
+        "description": "MongoDB IDE"
+    },
+    {
+        "shortcut": "CTRL + ALT + O",
+        "description": "Postman"
+    },
+    {
+        "shortcut": "CTRL + ALT + P",
+        "description": "Open PowerShell"
+    },
+    {
+        "shortcut": "CTRL + ALT + Q",
+        "description": "LinqPad"
+    },
+    {
+        "shortcut": "CTRL + ALT + R",
+        "description": "Explorer auf Repos"
+    },
+    {
+        "shortcut": "CTRL + ALT + S",
+        "description": "ServiceBus Explorer"
+    },
+    {
+        "shortcut": "CTRL + ALT + T",
+        "description": "Testserver RDP"
+    },
+    {
+        "shortcut": "CTRL + ALT + V",
+        "description": "Visual Studio"
+    }
+]

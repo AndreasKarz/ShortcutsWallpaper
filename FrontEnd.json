@@ -1,0 +1,22 @@
+[
+    {
+        "shortcut": "!",
+        "description": "HTML 5 Boilerplate"
+    },
+    {
+        "shortcut": "p>lorem10",
+        "description": "Paragraph with 10 words"
+    },
+    {
+        "shortcut": "ul>li*4",
+        "description": "UL with 4 items"
+    },
+    {
+        "shortcut": ".example",
+        "description": "div with class 'example'"
+    },
+    {
+        "shortcut": "section#intro",
+        "description": "Section with Id 'intro'"
+    }
+]
